@@ -1,0 +1,189 @@
+    .navigation-buttons {
+    display: flex; /* coloca os botões na mesma linha */
+    justify-content: space-between; /* ou use flex-start se quiser os dois do mesmo lado */
+    align-items: center; /* alinha verticalmente no centro */
+    padding: 10px 20px;
+    background-color: #f9fafb;
+    position: sticky; /* opcional, se quiser que fique visível ao rolar */
+    top: 0;
+    z-index: 10;
+}
+
+.navigation-buttons .btn {
+    background: linear-gradient(to right, #68c899, #489d73);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 5px; /* opcional, dá um espaço entre os botões */
+}
+
+.navigation-buttons .btn:hover {
+    background: linear-gradient(to right, #68c899, #489d73);
+}
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #fbfbfb;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        header .logo {
+            color: #3ecf8e;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #3ecf8e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(to right, #68c899, #489d73);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .filter {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            
+            
+        }
+        filter{
+            align-items: flex-end;
+        }
+
+        select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #f2f4f6;
+            color: #333;
+        }
+
+        thead th {
+            text-align: left;
+            padding: 12px 15px;
+            font-weight: bold;
+        }
+
+        tbody td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            background-color: #e6f4ec;
+            color: #3ecf8e;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .pagination button {
+            background-color: #3ecf8e;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .pagination button:hover {
+             background: linear-gradient(to right, #68c899, #489d73);
+        }
+        .logo-div {
+           padding: 30px;            /* Espaçamento interno (opcional) */
+           width: 20px;             /* Largura da div */
+           height: 10px;            /* Altura da div */
+           display: flex;            /* Flex para centralizar a imagem */
+           align-items: center;      /* Centralizar verticalmente */
+           justify-content: center;  /* Centralizar horizontalmente */
+        }
+
+        .logo-div img {
+            width: 80px;   /* Largura da imagem */
+            height: auto;
+        }
+        
